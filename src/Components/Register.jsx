@@ -11,14 +11,7 @@ const Register = () => {
 
   return (
     <>
-      <div className="max-w-80 grid gap-5">
-        <h1 className="text-5xl font-bold text-white">Register</h1>
-        <p className="font-semibold">
-          Already Have an Account?{" "}
-          <a className="text-cyan-200 font-semibold cursor-pointer">
-            Login Here
-          </a>
-        </p>
+      <div className="">
         <form action="" className="space-y-6">
           <label className="block relative">
             <input
@@ -51,7 +44,7 @@ const Register = () => {
               )}
             </button>
           </label>
-          <button className="text-lg bg-gradient-to-r from-blue-400 to-cyan-200 w-80 font-semibold rounded-full py-2 ">
+          <button className="bg-gradient-to-r from-blue-500 to-cyan-300 w-80 font-semibold  rounded-full py-2 hover:bg-gradient-to-r hover:from-blue-600 hover:to-cyan-400 ">
             Register
           </button>
         </form>
