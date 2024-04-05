@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import LoginImage from "../Assets/Images/login_page.png";
-import Login from "../Components/Login";
-import Register from "../Components/Register";
+import Login from "./Login";
+import Register from "./Register";
 import { FcGoogle } from "react-icons/fc";
-import { FaGithub,FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const AuthPage = () => {
   const [method, setMethod] = useState("login");
